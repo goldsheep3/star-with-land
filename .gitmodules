@@ -1,0 +1,3 @@
+[submodule "themes/volantis"]
+	path = themes/volantis
+	url = https://github.com/goldsheep3/hexo-theme-volantis.git
