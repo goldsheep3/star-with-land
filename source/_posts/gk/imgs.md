@@ -2,6 +2,7 @@
 title: GK-23a 图片预览
 date: 2023.03.06
 categories: GK-23a
+archive: false
 ---
 
 当前版本：*Alpha-0306*

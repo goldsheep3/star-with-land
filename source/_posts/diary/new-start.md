@@ -2,7 +2,6 @@
 title: 新的开始
 date: 2023.03.06
 categories: diary
-archive: false
 ---
 
 Hello, world.
