@@ -23,7 +23,10 @@ jobs:
           hugo-version: "latest"
 
       - name: Build
-        run: hugo --minify
+        run: |
+          hugo --minify
+          # Copy the CNAME file to the ./public directory
+          cp CNAME ./public/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
