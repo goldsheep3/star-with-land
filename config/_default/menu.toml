@@ -1,24 +1,48 @@
 # Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
+# [[main]]
+# identifier = "home"
+# name = "Home"
+# url = "/"
+# [main.params]
+# icon = "home"
+# newtab = true
 
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/goldsheep3"
 
 [social.params]
 icon = "brand-github"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+identifier = "x"
+name = "x"
+url = "https://x.com/gold_sheep_3"
 
 [social.params]
-icon = "brand-twitter"
+# icon = "brand-x"
+
+[[social]]
+identifier = "bilibili"
+name = "Bilibili"
+url = "https://space.bilibili.com/319894659"
+
+[social.params]
+# icon = "brand-bilibili"
+
+[[social]]
+identifier = "qq"
+name = "QQ"
+url = ""
+
+[social.params]
+# icon = "brand-qq"
+
+[[social]]
+identifier = "steam"
+name = "Steam"
+url = "https://steamcommunity.com/id/goldsheep3"
+
+[social.params]
+# icon = "brand-steam"
