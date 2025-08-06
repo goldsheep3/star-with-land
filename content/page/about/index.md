@@ -1,22 +1,22 @@
 ---
 title: 关于「我」
 links:
-  - title: Email
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com/goldsheep3
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  # - title: Email
+  #   description: GitHub is the world's largest software development platform.
+  #   website: https://github.com/goldsheep3
+  #   image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
   - title: GitHub
     description: GitHub is the world's largest software development platform.
     website: https://github.com/goldsheep3
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: Bilibili
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com/goldsheep3
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: QQ
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com/goldsheep3
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  # - title: Bilibili
+  #   description: GitHub is the world's largest software development platform.
+  #   website: https://github.com/goldsheep3
+  #   image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  # - title: QQ
+  #   description: GitHub is the world's largest software development platform.
+  #   website: https://github.com/goldsheep3
+  #   image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 menu:
     main: 
         name: 关于我
@@ -54,7 +54,7 @@ license: "除本文引用的一切外部商标、注册名等，保留所有权�
 
 ### 🧭 我的目标？
 
-- 成为一个连接“**灵感星尘 （创意）**”与“**现实彼岸 （落地）**”的工匠。
+- 成为一个连接「**灵感星尘 （创意）**」与「**现实彼岸 （落地）**」的工匠。
 - 维护 “**星与彼岸**” （Star with Land） 作为**个人探索的锚点**和**与同好相遇的平台**。
 
 ### 🎯 我的技能与兴趣

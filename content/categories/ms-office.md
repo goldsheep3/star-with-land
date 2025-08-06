@@ -7,4 +7,6 @@ image:
 style:
     background: "#ddaa44"
     color: "#ffffff"
+
+license: false
 ---

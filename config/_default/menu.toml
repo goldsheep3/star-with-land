@@ -13,7 +13,7 @@ name = "GitHub"
 url = "https://github.com/goldsheep3"
 
 [social.params]
-icon = "brand-github"
+icon = "github"
 
 [[social]]
 identifier = "x"
@@ -21,7 +21,7 @@ name = "x"
 url = "https://x.com/gold_sheep_3"
 
 [social.params]
-# icon = "brand-x"
+icon = "tuite"
 
 [[social]]
 identifier = "bilibili"
@@ -29,7 +29,7 @@ name = "Bilibili"
 url = "https://space.bilibili.com/319894659"
 
 [social.params]
-# icon = "brand-bilibili"
+icon = "bilibili"
 
 [[social]]
 identifier = "qq"
@@ -37,7 +37,7 @@ name = "QQ"
 url = ""
 
 [social.params]
-# icon = "brand-qq"
+icon = "qq"
 
 [[social]]
 identifier = "steam"
@@ -45,4 +45,4 @@ name = "Steam"
 url = "https://steamcommunity.com/id/goldsheep3"
 
 [social.params]
-# icon = "brand-steam"
+icon = "steam"
