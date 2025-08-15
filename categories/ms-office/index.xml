@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>微软Office on 星与彼岸</title><link>http://blog.ciane.com/categories/ms-office/</link><description>Recent content in 微软Office on 星与彼岸</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.ciane.com/categories/ms-office/index.xml" rel="self" type="application/rss+xml"/><item><title>关于Word写高校论文时参考文献的引用方式</title><link>http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/</link><pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate><guid>http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/</guid><description>&lt;p>最近上课，有的老师和我们说论文格式的问题，说到了参考文献。思来想去，应该把这类规范记下来，自己查和给其他人看也都很方便。
+这篇文章会随着了解不断更新。&lt;/p>
+&lt;h2 id="参考文献的内容格式">参考文献的内容格式
+&lt;/h2>&lt;p>我暂时还没有具体明白那些内容都有什么，但是科技的力量是强大的。
+&lt;strong>注意，这类内容格式请找导师确认，或请教后和本格式对照修改。&lt;/strong>&lt;/p>
+&lt;h3 id="cnki引用节生成">cnki引用节生成
+&lt;/h3>&lt;p>对于知网的内容，我们可以直接使用知网给出的格式引文。&lt;/p>
+&lt;p>&lt;img src="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107001.png"
+width="1320"
+height="660"
+srcset="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107001_hu_e5072abd4203fa85.png 480w, http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107001_hu_5b62c54e88a3ef0c.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="200"
+data-flex-basis="480px"
+>&lt;/p>
+&lt;p>如图所示，进入文献知网节之后，通过右上角的引号标志打开引用窗口，知网会自动选中这段引文，复制即可。
+请注意，粘贴到Word后要删除前面的&lt;code>[1]&lt;/code>。&lt;/p>
+&lt;h3 id="参考文献格式生成器">参考文献格式生成器
+&lt;/h3>&lt;p>这类生成器网上随处可见。我目前在使用的一个网页是：&lt;a class="link" href="http://youkud.com/tool/referance/index.html" target="_blank" rel="noopener"
+>http://youkud.com/tool/referance/index.html&lt;/a>。&lt;/p>
+&lt;p>按照网页上的内容，选择文献类型后填写内容即可。&lt;/p>
+&lt;h2 id="文献引用操作交叉引用">文献引用操作：交叉引用
+&lt;/h2>&lt;p>1.创建一个&lt;code>[1]&lt;/code>格式的Word编号列表格式。&lt;/p>
+&lt;p>在【开始-段落】中，选中编号列表图案右侧倒三角，选择【定义新编号格式】；
+在弹出的窗口中修改【编号格式】，删除空格和&lt;code>.&lt;/code>，在左右输入&lt;code>[&lt;/code>和&lt;code>]&lt;/code>，点击确定。&lt;/p>
+&lt;p>&lt;img src="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107002.png"
+width="1024"
+height="699"
+srcset="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107002_hu_d4429b72bcb9ef05.png 480w, http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107002_hu_67836484b1fd12a0.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="146"
+data-flex-basis="351px"
+>&lt;/p>
+&lt;p>2.使用新创建的编号列表填写参考文献。&lt;/p>
+&lt;p>先点击【开始-段落】的编号列表图案创建一个编号列表，随后点击倒三角，在弹出的菜单栏中选择刚刚创建的&lt;code>[1]&lt;/code>格式。&lt;/p>
+&lt;p>3.在文中需要添加参考文献的位置选择【插入-链接-交叉引用】。&lt;/p>
+&lt;blockquote>
+&lt;p>该设置也可以在【引用】中找到。&lt;/p>&lt;/blockquote>
+&lt;p>&lt;img src="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107003.png"
+width="330"
+height="225"
+srcset="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107003_hu_bdc5ade88039cc8f.png 480w, http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107003_hu_6626707b9327aa1d.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="146"
+data-flex-basis="352px"
+>&lt;/p>
+&lt;p>在【交叉引用】窗口中，【引用内容】选择【段落编号】，选择【引用哪一个编号项】中的对应文献，点击【插入】，方框数字就会被插入到你之前光标的所在位置。&lt;/p>
+&lt;p>4.设置为上标。&lt;/p>
+&lt;p>&lt;img src="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107004.png"
+width="1320"
+height="662"
+srcset="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107004_hu_ea34641862ecdab4.png 480w, http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107004_hu_2e04a5dee1ede733.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="199"
+data-flex-basis="478px"
+>&lt;/p>
+&lt;p>拖选交叉引用的&lt;code>[1]&lt;/code>编号，点击上标，编号就变成右上角标的形式了。&lt;/p></description></item><item><title>关于Excel的随机数生成</title><link>http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eexcel%E7%9A%84%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90/</link><pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate><guid>http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eexcel%E7%9A%84%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90/</guid><description>&lt;p>前两天学校的老师有提到这个事情，回去翻了，在这里整理一下。&lt;/p>
+&lt;h2 id="randbetween函数">RANDBETWEEN函数
+&lt;/h2>&lt;p>&lt;em>&lt;strong>支持：Office 2007+&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>一个很简单的函数：&lt;code>=RANDBETWEEN()&lt;/code>，可以实现&lt;strong>整数&lt;/strong>的随机数生成。&lt;/p>
+&lt;p>用法：&lt;code>=RANDBETWEEN(最小值,最大值)&lt;/code>。老规矩，&lt;strong>括号和逗号要用英文模式。&lt;/strong>&lt;/p>
+&lt;p>这里要注意，&lt;strong>最小值不能比最大值大&lt;/strong>&lt;del>（虽然但是真的会有人这么写吗）&lt;/del>。&lt;/p>
+&lt;blockquote>
+&lt;p>说明：&lt;/p>
+&lt;p>返回位于两个指定数之间的一个随机整数。 每次计算工作表时都将返回一个新的随机整数。&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>&lt;/blockquote>
+&lt;p>微软的支持文档中，还有这样一段话：&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>注意：&lt;/strong> 当通过在不同单元格中输入公式或数据或手动重新计算 (按 F9) 重新计算工作表时，将针对使用 RANDBETWEEN 函数的任何公式生成新的随机数。&lt;sup id="fnref1:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>&lt;/blockquote>
+&lt;p>这意味着，如果你在其他单元格做了什么操作，这个格子的随机数会被重新随机计算一次。&lt;/p>
+&lt;p>如果觉得合适，不想让随机数在之后刷新变化，可以选择随机函数所在的单元格，复制后在原地粘贴为值（见下图）。此时这组随机数的数值就固定了下来，不会再被刷新。&lt;/p>
+&lt;p>&lt;img src="http://blog.ciane.com/img/posts/20231102001.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>当然，如果你觉得这组数字不好，按&lt;kbd>F9&lt;/kbd>重新生成随机数也是个不错的选择。&lt;/p>
+&lt;h3 id="实例">实例
+&lt;/h3>&lt;ul>
+&lt;li>生成一个81~90的随机数：&lt;code>=RANDBETWEEN(81,90)&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="rand函数">RAND函数
+&lt;/h2>&lt;p>&lt;em>&lt;strong>支持：Office 2007+&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>还有一个函数：&lt;code>=RAND()&lt;/code>，可以生成0~1（不含1）的随机数（小数）。&lt;/p>
+&lt;p>这个函数的括号中什么也不需要写。&lt;/p>
+&lt;p>如果想生成任意两个数间的随机数，可以用&lt;code>=RAND()*(b-a)+a&lt;/code>，其中&lt;code>a&lt;/code>为最小值，&lt;code>b&lt;/code>为最大值。&lt;/p>
+&lt;p>&lt;em>未证实：不确定生成的数字中是否包含&lt;code>a&lt;/code>或&lt;code>b&lt;/code>。&lt;/em>&lt;/p>
+&lt;p>同样，随机数会被其他单元格的操作和&lt;kbd>F9&lt;/kbd>刷新。&lt;/p>
+&lt;h2 id="参考链接">参考链接
+&lt;/h2>&lt;p>&lt;strong>非引用参考：&lt;/strong>&lt;/p>
+&lt;p>&lt;a class="link" href="https://zhuanlan.zhihu.com/p/442880452" target="_blank" rel="noopener"
+>Excel中RANDBETWEEN函数的用法 - 知乎&lt;/a>&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a class="link" href="https://support.microsoft.com/zh-cn/office/randbetween-%E5%87%BD%E6%95%B0-4cc7f0d1-87dc-4eb7-987f-a469ab381685" target="_blank" rel="noopener"
+>RANDBETWEEN 函数 - Microsoft 支持&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qqhru on 星与彼岸</title><link>http://blog.ciane.com/tags/qqhru/</link><description>Recent content in Qqhru on 星与彼岸</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 23 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.ciane.com/tags/qqhru/index.xml" rel="self" type="application/rss+xml"/><item><title>关于Excel的随机数生成</title><link>http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eexcel%E7%9A%84%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90/</link><pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate><guid>http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eexcel%E7%9A%84%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90/</guid><description>&lt;p>前两天学校的老师有提到这个事情，回去翻了，在这里整理一下。&lt;/p>
+&lt;h2 id="randbetween函数">RANDBETWEEN函数
+&lt;/h2>&lt;p>&lt;em>&lt;strong>支持：Office 2007+&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>一个很简单的函数：&lt;code>=RANDBETWEEN()&lt;/code>，可以实现&lt;strong>整数&lt;/strong>的随机数生成。&lt;/p>
+&lt;p>用法：&lt;code>=RANDBETWEEN(最小值,最大值)&lt;/code>。老规矩，&lt;strong>括号和逗号要用英文模式。&lt;/strong>&lt;/p>
+&lt;p>这里要注意，&lt;strong>最小值不能比最大值大&lt;/strong>&lt;del>（虽然但是真的会有人这么写吗）&lt;/del>。&lt;/p>
+&lt;blockquote>
+&lt;p>说明：&lt;/p>
+&lt;p>返回位于两个指定数之间的一个随机整数。 每次计算工作表时都将返回一个新的随机整数。&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>&lt;/blockquote>
+&lt;p>微软的支持文档中，还有这样一段话：&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>注意：&lt;/strong> 当通过在不同单元格中输入公式或数据或手动重新计算 (按 F9) 重新计算工作表时，将针对使用 RANDBETWEEN 函数的任何公式生成新的随机数。&lt;sup id="fnref1:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>&lt;/blockquote>
+&lt;p>这意味着，如果你在其他单元格做了什么操作，这个格子的随机数会被重新随机计算一次。&lt;/p>
+&lt;p>如果觉得合适，不想让随机数在之后刷新变化，可以选择随机函数所在的单元格，复制后在原地粘贴为值（见下图）。此时这组随机数的数值就固定了下来，不会再被刷新。&lt;/p>
+&lt;p>&lt;img src="http://blog.ciane.com/img/posts/20231102001.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>当然，如果你觉得这组数字不好，按&lt;kbd>F9&lt;/kbd>重新生成随机数也是个不错的选择。&lt;/p>
+&lt;h3 id="实例">实例
+&lt;/h3>&lt;ul>
+&lt;li>生成一个81~90的随机数：&lt;code>=RANDBETWEEN(81,90)&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="rand函数">RAND函数
+&lt;/h2>&lt;p>&lt;em>&lt;strong>支持：Office 2007+&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>还有一个函数：&lt;code>=RAND()&lt;/code>，可以生成0~1（不含1）的随机数（小数）。&lt;/p>
+&lt;p>这个函数的括号中什么也不需要写。&lt;/p>
+&lt;p>如果想生成任意两个数间的随机数，可以用&lt;code>=RAND()*(b-a)+a&lt;/code>，其中&lt;code>a&lt;/code>为最小值，&lt;code>b&lt;/code>为最大值。&lt;/p>
+&lt;p>&lt;em>未证实：不确定生成的数字中是否包含&lt;code>a&lt;/code>或&lt;code>b&lt;/code>。&lt;/em>&lt;/p>
+&lt;p>同样，随机数会被其他单元格的操作和&lt;kbd>F9&lt;/kbd>刷新。&lt;/p>
+&lt;h2 id="参考链接">参考链接
+&lt;/h2>&lt;p>&lt;strong>非引用参考：&lt;/strong>&lt;/p>
+&lt;p>&lt;a class="link" href="https://zhuanlan.zhihu.com/p/442880452" target="_blank" rel="noopener"
+>Excel中RANDBETWEEN函数的用法 - 知乎&lt;/a>&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a class="link" href="https://support.microsoft.com/zh-cn/office/randbetween-%E5%87%BD%E6%95%B0-4cc7f0d1-87dc-4eb7-987f-a469ab381685" target="_blank" rel="noopener"
+>RANDBETWEEN 函数 - Microsoft 支持&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>

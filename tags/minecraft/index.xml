@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Minecraft on 星与彼岸</title><link>http://blog.ciane.com/tags/minecraft/</link><description>Recent content in Minecraft on 星与彼岸</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.ciane.com/tags/minecraft/index.xml" rel="self" type="application/rss+xml"/><item><title>整合包半自助更新工具！</title><link>http://blog.ciane.com/p/%E6%95%B4%E5%90%88%E5%8C%85%E5%8D%8A%E8%87%AA%E5%8A%A9%E6%9B%B4%E6%96%B0%E5%B7%A5%E5%85%B7/</link><pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate><guid>http://blog.ciane.com/p/%E6%95%B4%E5%90%88%E5%8C%85%E5%8D%8A%E8%87%AA%E5%8A%A9%E6%9B%B4%E6%96%B0%E5%B7%A5%E5%85%B7/</guid><description>&lt;blockquote>
+&lt;p>工具链接：&lt;a class="link" href="https://github.com/goldsheep3/mcpack_update_pyinstaller" target="_blank" rel="noopener"
+>goldsheep3/mcpack_update_pyinstaller&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;p>给流光的小服帮忙的时候，意识到如果小包想更新还是有点麻烦的。每次一点小更新，发个压缩包解压有人不太熟悉，发完整包还有点太大了很过分。
+于是搞了这样一个小工具。&lt;/p>
+&lt;p>服主打包的时候，将 &lt;code>mcpack_update.exe&lt;/code> 放在 Minecraft 版本目录（与版本 jar、json 文件同级），就可以啦。
+玩家使用的时候，只需要下载包，将压缩包放到可以通过 PCL2 自动打开的版本文件夹，然后运行就可以跟着指引更新了。&lt;/p>
+&lt;h2 id="服主创建压缩包">服主创建压缩包
+&lt;/h2>&lt;p>每次小更新的时候，将需要加入的内容压缩到 &lt;code>mcpUpdate_xxxxxx.zip&lt;/code>（6位数字），这个就是合格的更新包了。&lt;/p>
+&lt;p>如果有想删除的文件或文件夹，就创建一个 &lt;code>mcpUpdate_remove.txt&lt;/code> 也压缩到包内。
+每行写一个需要删除的文件或目录的相对路径（相对于版本目录，分隔符用 &lt;code>/&lt;/code> ），如：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mods/modB.jar
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">config/configB.cfg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">options.txt
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">kubejs
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>特别确定的逻辑顺序是，删除操作会在解压前进行。
+确保 &lt;code>kubejs&lt;/code> 这样的目录能被彻底清理后再覆盖。
+同时，程序运行结束后，更新包和删除列表也会自动清理，程序本身仍然留在原地。&lt;/p>
+&lt;h2 id="todo">TODO
+&lt;/h2>&lt;p>正在着手准备联网更新的方式，通过一个配置文件，直接自动获取并更新。
+因为目前这样的程序够用，于是还没想怎么做。&lt;/p></description></item></channel></rss>

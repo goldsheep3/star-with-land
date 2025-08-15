@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Word on 星与彼岸</title><link>http://blog.ciane.com/tags/word/</link><description>Recent content in Word on 星与彼岸</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.ciane.com/tags/word/index.xml" rel="self" type="application/rss+xml"/><item><title>关于Word写高校论文时参考文献的引用方式</title><link>http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/</link><pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate><guid>http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/</guid><description>&lt;p>最近上课，有的老师和我们说论文格式的问题，说到了参考文献。思来想去，应该把这类规范记下来，自己查和给其他人看也都很方便。
+这篇文章会随着了解不断更新。&lt;/p>
+&lt;h2 id="参考文献的内容格式">参考文献的内容格式
+&lt;/h2>&lt;p>我暂时还没有具体明白那些内容都有什么，但是科技的力量是强大的。
+&lt;strong>注意，这类内容格式请找导师确认，或请教后和本格式对照修改。&lt;/strong>&lt;/p>
+&lt;h3 id="cnki引用节生成">cnki引用节生成
+&lt;/h3>&lt;p>对于知网的内容，我们可以直接使用知网给出的格式引文。&lt;/p>
+&lt;p>&lt;img src="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107001.png"
+width="1320"
+height="660"
+srcset="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107001_hu_e5072abd4203fa85.png 480w, http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107001_hu_5b62c54e88a3ef0c.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="200"
+data-flex-basis="480px"
+>&lt;/p>
+&lt;p>如图所示，进入文献知网节之后，通过右上角的引号标志打开引用窗口，知网会自动选中这段引文，复制即可。
+请注意，粘贴到Word后要删除前面的&lt;code>[1]&lt;/code>。&lt;/p>
+&lt;h3 id="参考文献格式生成器">参考文献格式生成器
+&lt;/h3>&lt;p>这类生成器网上随处可见。我目前在使用的一个网页是：&lt;a class="link" href="http://youkud.com/tool/referance/index.html" target="_blank" rel="noopener"
+>http://youkud.com/tool/referance/index.html&lt;/a>。&lt;/p>
+&lt;p>按照网页上的内容，选择文献类型后填写内容即可。&lt;/p>
+&lt;h2 id="文献引用操作交叉引用">文献引用操作：交叉引用
+&lt;/h2>&lt;p>1.创建一个&lt;code>[1]&lt;/code>格式的Word编号列表格式。&lt;/p>
+&lt;p>在【开始-段落】中，选中编号列表图案右侧倒三角，选择【定义新编号格式】；
+在弹出的窗口中修改【编号格式】，删除空格和&lt;code>.&lt;/code>，在左右输入&lt;code>[&lt;/code>和&lt;code>]&lt;/code>，点击确定。&lt;/p>
+&lt;p>&lt;img src="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107002.png"
+width="1024"
+height="699"
+srcset="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107002_hu_d4429b72bcb9ef05.png 480w, http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107002_hu_67836484b1fd12a0.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="146"
+data-flex-basis="351px"
+>&lt;/p>
+&lt;p>2.使用新创建的编号列表填写参考文献。&lt;/p>
+&lt;p>先点击【开始-段落】的编号列表图案创建一个编号列表，随后点击倒三角，在弹出的菜单栏中选择刚刚创建的&lt;code>[1]&lt;/code>格式。&lt;/p>
+&lt;p>3.在文中需要添加参考文献的位置选择【插入-链接-交叉引用】。&lt;/p>
+&lt;blockquote>
+&lt;p>该设置也可以在【引用】中找到。&lt;/p>&lt;/blockquote>
+&lt;p>&lt;img src="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107003.png"
+width="330"
+height="225"
+srcset="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107003_hu_bdc5ade88039cc8f.png 480w, http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107003_hu_6626707b9327aa1d.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="146"
+data-flex-basis="352px"
+>&lt;/p>
+&lt;p>在【交叉引用】窗口中，【引用内容】选择【段落编号】，选择【引用哪一个编号项】中的对应文献，点击【插入】，方框数字就会被插入到你之前光标的所在位置。&lt;/p>
+&lt;p>4.设置为上标。&lt;/p>
+&lt;p>&lt;img src="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107004.png"
+width="1320"
+height="662"
+srcset="http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107004_hu_ea34641862ecdab4.png 480w, http://blog.ciane.com/p/%E5%85%B3%E4%BA%8Eword%E5%86%99%E9%AB%98%E6%A0%A1%E8%AE%BA%E6%96%87%E6%97%B6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/20231107004_hu_2e04a5dee1ede733.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="199"
+data-flex-basis="478px"
+>&lt;/p>
+&lt;p>拖选交叉引用的&lt;code>[1]&lt;/code>编号，点击上标，编号就变成右上角标的形式了。&lt;/p></description></item></channel></rss>
