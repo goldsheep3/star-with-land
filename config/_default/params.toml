@@ -80,7 +80,7 @@ enabled = true
 provider = "waline"
 
 [comments.waline]
-serverURL = "https://waline-gdycy8sok-goldsheep3s-projects.vercel.app/"
+serverURL = "https://waline-comment-server.ciane.cn"
 lang = "zh-CN"
 emoji = ["https://unpkg.com/@waline/emojis@1.2.0/bilibili", "https://unpkg.com/@waline/emojis@1.2.0/tw-emoji", "https://unpkg.com/@waline/emojis@1.2.0/qq"]
 meta = ["nick"]
